@@ -6,6 +6,7 @@ It ADD the XML sources to the main merged XML file
 
 # Example:
 We select a stylo.xml which look like this :
+```
   <menu>
     <item>
       <id>1</id>
@@ -14,9 +15,11 @@ We select a stylo.xml which look like this :
       <description>1 mm pen</description>
     </item>
   </menu>
+  ```
 and a online url xml file like this https://api.androidhive.info/pizza/?format=xml
 
 It will create a merged.xml file like this :
+```
   <menu>
     <item>
       <id>1</id>
@@ -46,13 +49,16 @@ It will create a merged.xml file like this :
       <description>Golden corn, Double Barbeque and Cheese</description>
     </item>
   </menu>
+  ```
   
 And if we relaunch the program an other time with for example tennis.xml which look like this :
+```
   <graphics card>
     <name>RTX 3090</name>
   </graphics card>    
-  
+  ```
 We will get a merged.xml file like this :
+```
 <menu>
     <item>
       <id>1</id>
@@ -85,3 +91,4 @@ We will get a merged.xml file like this :
   <graphics card>
     <name>RTX 3090</name>
   </graphics card>
+```
